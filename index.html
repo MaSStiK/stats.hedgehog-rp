@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VK Статистика</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f0f0;
+      margin: 0; padding: 20px; color: #333;
+    }
+    .container {
+      max-width:1200px; width:100%; margin:0 auto;
+      background:#fff; padding:20px;
+      border:1px solid #bbb;
+      box-shadow:2px 2px 8px rgba(0,0,0,0.1);
+      overflow-x:auto;
+    }
+    h1,h2,h3 { margin:0 0 10px; color:#222; }
+    hr { border:none; border-top:1px solid #bbb; margin:20px 0; }
+
+    #overallBlock { display:flex; gap:20px; align-items:flex-start; justify-content: space-between; flex-wrap: wrap;}
+    #overallPie { flex:2; height:300px; position:relative; }
+    #overallPie canvas { width:100%!important; height:100%!important; }
+
+    /* Таблица «за все время» */
+    #userTable {
+      flex:0 0 500px; margin-top:4px;
+    }
+    #userCount {
+      font-weight:bold; margin-bottom:6px; display:block;
+    }
+    .scroll-table {
+      display:flex; flex-direction:column;
+      height: 296px; background:#fafafa;
+      border-bottom:1px solid #bbb;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .scroll-table .table-body tr:first-of-type td {
+      border-top: none;
+    }
+    .scroll-table .table-body tr:last-of-type td {
+      border-bottom: none;
+    }
+
+    .scroll-table .table-head { flex:0 0 auto; background:#fff; }
+    .scroll-table .table-body { flex:1 1 auto; overflow-y:auto; }
+    .scroll-table table {
+      border-collapse:collapse; table-layout:fixed; width:100%;
+      white-space: nowrap;
+    }
+    .scroll-table colgroup col:nth-child(1) { width:10%; }
+    .scroll-table colgroup col:nth-child(2) { width:60%; }
+    .scroll-table colgroup col:nth-child(3) { width:30%; }
+    .scroll-table th, .scroll-table td {
+      padding:6px; border:1px solid #bbb; font-size:0.9em;
+    }
+    .scroll-table th { text-align:center; background:#eee; }
+    .scroll-table td:nth-child(1), .scroll-table td:nth-child(3) { text-align:center; }
+    .scroll-table td:nth-child(2) { text-align:left; }
+    .scroll-table td img {
+      width:24px; height:24px; border-radius:50%;
+      vertical-align:middle; margin-right:6px;
+    }
+
+    select { padding:4px; font-size:0.9em; margin-bottom:10px; }
+    .charts { display:flex; flex-wrap:wrap; gap:20px; height: 500px; }
+
+    /* увеличение высоты monthlyBar */
+    #monthlyBar canvas {
+      height: 100%;
+    }
+    .chart-container {
+      position:relative; flex:1; min-width:300px;
+    }
+
+    #monthTables {
+      display:flex; flex-wrap:wrap; gap:20px; margin-top:20px;
+    }
+    .month-table {
+      flex:0 1 calc((100% - 40px)/3);
+      display:flex; flex-direction:column;
+      height: 361px; background:#fafafa;
+      border-bottom:1px solid #bbb;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .month-table h4 {
+      padding:10px; margin:0; text-align:center;
+      font-weight:bold; border-bottom:1px solid #bbb;
+      background:#fff;
+      border:1px solid #bbb;
+      border-bottom: none;
+    }
+
+    .month-table tr:first-of-type td {
+      border-top: none;
+    }
+    .month-table tr:last-of-type td {
+      border-bottom: none;
+    }
+
+    .month-table .table-head table th {
+      background:#eee;
+    }
+    .month-table .table-body-wrapper {
+      flex:1; overflow-y:auto;
+      min-height: 0;
+    }
+    .month-table table {
+      border-collapse:collapse; table-layout:fixed; width:100%;
+      white-space: nowrap;
+    }
+    .month-table th, .month-table td {
+      padding:6px; border:1px solid #bbb; font-size:0.85em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      vertical-align: middle;
+    }
+    .month-table td:nth-child(1) { text-align:center; width:10%; }
+    .month-table td:nth-child(2) { text-align:left; width:60%; }
+    .month-table td:nth-child(3) { text-align:center; width:30%; }
+
+    .month-table thead th:nth-child(1) { text-align:center; width:10%; }
+    .month-table thead th:nth-child(2) { text-align:center; width:60%; }
+    .month-table thead th:nth-child(3) { text-align:center; width:30%; }
+    .month-table td img {
+      width:28px; height:28px; border-radius:50%;
+      vertical-align:middle; margin-right:8px;
+    }
+
+    /* =========== Адаптив для планшетов и телефонов =========== */
+    @media only screen and (max-width: 768px) {
+      #userTable {
+        flex:0 0 100%;
+      }
+      .charts {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+      }
+      .chart-container {
+        width: 100%;
+        height: 250px;
+      }
+
+      #monthTables {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .month-table {
+        max-height: 320px;
+      }
+      .month-table .table-body-wrapper {
+        flex: 1;
+        min-height: 0;
+        overflow-y: auto;
+      }
+    }
+
+    /* =========== Ещё более узкие экраны (телефоны) =========== */
+    @media only screen and (max-width: 480px) {
+      body { font-size: 14px; }
+      h1 { font-size: 1.4em; }
+      h2 { font-size: 1.2em; }
+      select { width: 100%; }
+
+      .scroll-table, .month-table {
+        /* Горизонтальная прокрутка */
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .scroll-table table,
+      .month-table table {
+        /* Запрет переноса и минимальная ширина */
+        white-space: nowrap;
+      }
+
+      .scroll-table th, .scroll-table td,
+      .month-table th, .month-table td {
+        padding: 4px;
+        font-size: 0.75em;
+      }
+
+      #overallPie .chart-legend {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Статистика сообщений из беседы r/41reddit_hedgehogs</h1>
+    <section id="overallBlock">
+      <div>
+        <h2>Общая статистика за все годы</h2>
+        <div id="overallPie" class="chart-container"><canvas></canvas></div>
+      </div>
+      <div id="userTable">
+        <h3>Сообщения по пользователям (всего):</h3>
+        <span id="userCount">Всего участников: 0</span>
+        <div class="scroll-table">
+          <div class="table-head">
+            <table>
+              <colgroup><col><col><col></colgroup>
+              <thead>
+                <tr><th>№</th><th>Пользователь</th><th>Кол-во</th></tr>
+              </thead>
+            </table>
+          </div>
+          <div class="table-body">
+            <table>
+              <colgroup><col><col><col></colgroup>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="yearBlock">
+      <h2>Статистика по выбранному году</h2>
+      <label><span>Год:</span><select id="yearSelector"></select></label>
+      <div class="charts">
+        <div id="monthlyBar" class="chart-container"><canvas></canvas></div>
+        <div id="userBar" class="chart-container"><canvas></canvas></div>
+      </div>
+      <div id="monthTables"></div>
+    </section>
+  </div>
+
+  <script>
+    const monthNames = {
+      '1':'Январь','2':'Февраль','3':'Март','4':'Апрель',
+      '5':'Май','6':'Июнь','7':'Июль','8':'Август',
+      '9':'Сентябрь','10':'Октябрь','11':'Ноябрь','12':'Декабрь'
+    };
+
+    function generateGradient(values, h0, h1) {
+      const max = Math.max(...values), min = Math.min(...values);
+      return values.map(v => {
+        const t = max===min?0.5:(v-min)/(max-min);
+        const hue = h0 + (h1-h0)*t;
+        const light = 80 - 50*t;
+        return `hsl(${hue},80%,${light}%)`;
+      });
+    }
+
+    async function loadData() {
+      const [dRes,eRes] = await Promise.all([
+        fetch('summary_stats.json'),
+        fetch('vk_entities.json')
+      ]);
+      if (!dRes.ok || !eRes.ok) throw new Error('Ошибка загрузки данных');
+      return { data: await dRes.json(), entities: await eRes.json() };
+    }
+
+    function renderOverallPie(years, overview) {
+      const totals = years.map(y =>
+        Object.values(overview.messages_per_user_per_year)
+          .reduce((s,m)=>s+(m[y]||0),0)
+      );
+      const colors = years.map((_,i) => {
+        const t = years.length===1?0.5:i/(years.length-1);
+        return `hsl(${200 + 80*t},80%,50%)`;
+      });
+      const ctx = document.querySelector('#overallPie canvas').getContext('2d');
+      if (window.overallChart) window.overallChart.destroy();
+      window.overallChart = new Chart(ctx, {
+        type:'pie',
+        data:{ labels:years, datasets:[{ data:totals, backgroundColor:colors }]},
+        options:{ maintainAspectRatio:false, plugins:{ legend:{ position:'right', labels:{ boxWidth:12, font:{ size:10 } } } } }
+      });
+    }
+
+    function renderUserTotals(overview, mapInfo) {
+      const tbody = document.querySelector('#userTable .table-body tbody');
+      tbody.innerHTML = '';
+      const users = Object.entries(overview.messages_per_user_per_year)
+        .map(([id,d]) => ({ id, total: Object.values(d).reduce((s,v)=>s+v,0) }))
+        .sort((a,b)=>b.total-a.total);
+      //Считаем и выводим общее число
+      document.getElementById('userCount').innerText = `Всего участников: ${users.length}`;
+      //Заполняем всю таблицу
+      users.forEach((u,i) => {
+        const info = mapInfo[u.id]||{};
+        tbody.insertAdjacentHTML('beforeend',`
+          <tr>
+            <td>${i+1}</td>
+            <td><img src="${info.avatar||''}" alt=""><span>${info.name||u.id}</span></td>
+            <td>${u.total}</td>
+          </tr>`);
+      });
+    }
+
+    function renderYearlyStats(year, data, mapInfo) {
+      const stats = data.years[year];
+      const months = Object.keys(stats.messages_per_month)
+        .filter(m=>stats.messages_per_month[m]>0).sort();
+      const labels = months.map(m=>monthNames[parseInt(m.split('-')[1],10)]);
+
+      // monthlyBar (увеличена высота через CSS)
+      const mVals = months.map(m=>stats.messages_per_month[m]);
+      const mCols = generateGradient(mVals,210,260);
+      const mCtx = document.querySelector('#monthlyBar canvas').getContext('2d');
+      if (window.monthlyChart) window.monthlyChart.destroy();
+      window.monthlyChart = new Chart(mCtx, {
+        type:'bar',
+        data:{ labels, datasets:[{ data:mVals, backgroundColor:mCols }]},
+        options:{ maintainAspectRatio:false, plugins:{ legend:{ display:false } }, scales:{ y:{ beginAtZero:true } } }
+      });
+
+      // userBar топ-20
+      const users = Object.entries(stats.messages_per_user)
+        .filter(([,c])=>c>0)
+        .sort((a,b)=>b[1]-a[1])
+        .slice(0,20)
+        .map(([u])=>u);
+      const uVals = users.map(u=>stats.messages_per_user[u]);
+      const uCols = generateGradient(uVals,90,140);
+      const uCtx = document.querySelector('#userBar canvas').getContext('2d');
+      if (window.userChart) window.userChart.destroy();
+      window.userChart = new Chart(uCtx, {
+        type:'bar',
+        data:{ labels: users.map(u=>mapInfo[u]?.name||u), datasets:[{ data:uVals, backgroundColor:uCols }]},
+        options:{ maintainAspectRatio:false, plugins:{ legend:{ display:false } }, indexAxis:'y', scales:{ x:{ beginAtZero:true } } }
+      });
+
+      // месячные таблицы
+      const tables = document.getElementById('monthTables');
+      tables.innerHTML = '';
+      months.forEach((m,mi) => {
+        const div = document.createElement('div');
+        div.className = 'month-table';
+        div.innerHTML = `
+          <h4>${labels[mi]}</h4>
+          <div class="table-head"><table><thead>
+            <tr><th>№</th><th>Пользователь</th><th>Кол-во</th></tr>
+          </thead></table></div>
+          <div class="table-body-wrapper"><table><tbody></tbody></table></div>`;
+        const tb = div.querySelector('tbody');
+        Object.entries(stats.messages_per_user_per_month)
+          .map(([uid,md])=>({ uid, count: md[m]||0 }))
+          .filter(r=>r.count>0)
+          .sort((a,b)=>b.count-a.count)
+          .forEach((r,ri)=>{
+            const info = mapInfo[r.uid]||{};
+            tb.insertAdjacentHTML('beforeend',`
+              <tr>
+                <td>${ri+1}</td>
+                <td><img src="${info.avatar||''}" alt=""><span>${info.name||r.uid}</span></td>
+                <td>${r.count}</td>
+              </tr>`);
+          });
+        tables.appendChild(div);
+      });
+    }
+
+    (async()=>{
+      try {
+        const { data, entities } = await loadData();
+        const years = Object.keys(data.years).sort();
+        const overview = data.overview;
+        const mapInfo = Object.fromEntries(entities.map(e=>[String(e.id),e]));
+        renderOverallPie(years, overview);
+        renderUserTotals(overview, mapInfo);
+        const sel = document.getElementById('yearSelector');
+        years.forEach(y=>sel.append(new Option(y,y)));
+        sel.addEventListener('change',()=>renderYearlyStats(sel.value,data,mapInfo));
+        renderYearlyStats(years[0], data, mapInfo);
+      } catch(e) {
+        console.error(e);
+        document.querySelector('.container').innerHTML = '<p style="color:red;">Ошибка загрузки статистики, см. консоль.</p>';
+      }
+    })();
+  </script>
+</body>
+</html>

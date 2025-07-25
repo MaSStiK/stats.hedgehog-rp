@@ -1,0 +1,4366 @@
+[
+    {
+        "id": 6689206,
+        "date": 1704127955,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 601678,
+            "member_id": 396771911,
+            "message": "@все, \n\nПоявилась идея разнообразить"
+        }
+    },
+    {
+        "id": 6689678,
+        "date": 1704314439,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6691318,
+        "date": 1704618389,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 601958,
+            "member_id": 396771911,
+            "message": "@все, \nВажный опрос касательно актуал"
+        }
+    },
+    {
+        "id": 6691419,
+        "date": 1704660279,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6691421,
+        "date": 1704660356,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6691903,
+        "date": 1704741950,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6691907,
+        "date": 1704742204,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6691917,
+        "date": 1704744921,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 815686275
+        }
+    },
+    {
+        "id": 6691919,
+        "date": 1704745157,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 602081,
+            "member_id": 396771911,
+            "message": "@mas2tik, Актуалка и список правителей"
+        }
+    },
+    {
+        "id": 6694372,
+        "date": 1704956494,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 602259,
+            "member_id": 396771911,
+            "message": "@all \nСегодня в 20:00 по мск будет проведена"
+        }
+    },
+    {
+        "id": 6694396,
+        "date": 1704957914,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6695127,
+        "date": 1704992664,
+        "from_id": 552376142,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": -190195384
+        }
+    },
+    {
+        "id": 6695398,
+        "date": 1704994350,
+        "from_id": 521674380,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6695684,
+        "date": 1704995356,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 815686275
+        }
+    },
+    {
+        "id": 6695685,
+        "date": 1704995356,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6695687,
+        "date": 1704995356,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6695688,
+        "date": 1704995356,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6695689,
+        "date": 1704995356,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6695690,
+        "date": 1704995356,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6695691,
+        "date": 1704995356,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 509579665
+        }
+    },
+    {
+        "id": 6695693,
+        "date": 1704995357,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6695694,
+        "date": 1704995357,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6695695,
+        "date": 1704995357,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6695696,
+        "date": 1704995357,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6695697,
+        "date": 1704995357,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6695698,
+        "date": 1704995357,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6695702,
+        "date": 1704995374,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6695953,
+        "date": 1704995408,
+        "from_id": 552376142,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6695954,
+        "date": 1704995430,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6695955,
+        "date": 1704995430,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6695956,
+        "date": 1704995430,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6695957,
+        "date": 1704995430,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6695958,
+        "date": 1704995430,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 509579665
+        }
+    },
+    {
+        "id": 6695959,
+        "date": 1704995430,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6695960,
+        "date": 1704995431,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6695961,
+        "date": 1704995431,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6695962,
+        "date": 1704995431,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6695963,
+        "date": 1704995431,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6695965,
+        "date": 1704995452,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6699277,
+        "date": 1705227479,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": -190195384
+        }
+    },
+    {
+        "id": 6700393,
+        "date": 1705334901,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 604076,
+            "member_id": 396771911,
+            "message": "Актуалка, господа"
+        }
+    },
+    {
+        "id": 6700542,
+        "date": 1705341153,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6700589,
+        "date": 1705341448,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6700668,
+        "date": 1705341917,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6700739,
+        "date": 1705342175,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6700776,
+        "date": 1705342358,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6700778,
+        "date": 1705342366,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6700816,
+        "date": 1705342634,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6700819,
+        "date": 1705342647,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6701238,
+        "date": 1705380889,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6702351,
+        "date": 1705494254,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": -196009619
+        }
+    },
+    {
+        "id": 6702620,
+        "date": 1705520148,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 605478,
+            "member_id": 396771911,
+            "message": "Актуалка, господа"
+        }
+    },
+    {
+        "id": 6702962,
+        "date": 1705588328,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 605692,
+            "member_id": 396771911,
+            "message": "Актуалка, господа"
+        }
+    },
+    {
+        "id": 6703015,
+        "date": 1705589067,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 605700,
+            "member_id": 396771911,
+            "message": "Актуалка, господа"
+        }
+    },
+    {
+        "id": 6703116,
+        "date": 1705593150,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 605702,
+            "member_id": 396771911,
+            "message": "@все \nОпрос анонимный не просто так."
+        }
+    },
+    {
+        "id": 6704291,
+        "date": 1705644373,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 618322767
+        }
+    },
+    {
+        "id": 6704297,
+        "date": 1705644412,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 618322767
+        }
+    },
+    {
+        "id": 6704299,
+        "date": 1705644436,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 618322767
+        }
+    },
+    {
+        "id": 6704305,
+        "date": 1705644485,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 618322767
+        }
+    },
+    {
+        "id": 6704524,
+        "date": 1705660683,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6704583,
+        "date": 1705666111,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6706247,
+        "date": 1705857460,
+        "from_id": 817934388,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 817934388
+        }
+    },
+    {
+        "id": 6706408,
+        "date": 1705858380,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 606758,
+            "member_id": 396771911,
+            "message": "Отметка для закрепа"
+        }
+    },
+    {
+        "id": 6706867,
+        "date": 1705860773,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6706871,
+        "date": 1705860786,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6707187,
+        "date": 1705863574,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 831077830
+        }
+    },
+    {
+        "id": 6707547,
+        "date": 1705866377,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 831077830
+        }
+    },
+    {
+        "id": 6707617,
+        "date": 1705867577,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 607315,
+            "member_id": 396771911,
+            "message": "Ждём хода @lalalallaa"
+        }
+    },
+    {
+        "id": 6707677,
+        "date": 1705869053,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 607358,
+            "member_id": 396771911,
+            "message": "Ждём хода @mas2tik"
+        }
+    },
+    {
+        "id": 6707827,
+        "date": 1705869836,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 607377,
+            "member_id": 396771911,
+            "message": "Ждём хода @tomhiggins"
+        }
+    },
+    {
+        "id": 6708620,
+        "date": 1705919663,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6708621,
+        "date": 1705919667,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6708691,
+        "date": 1705928623,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 607631,
+            "member_id": 396771911,
+            "message": "С учётом того, что сейчас в активном медиапространстве"
+        }
+    },
+    {
+        "id": 6708692,
+        "date": 1705928707,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_unpin_message",
+            "conversation_message_id": 607631,
+            "member_id": 396771911
+        }
+    },
+    {
+        "id": 6708882,
+        "date": 1705935307,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 607674,
+            "member_id": 396771911,
+            "message": "Мужики, кто может 50р на карту скинуть?"
+        }
+    },
+    {
+        "id": 6709184,
+        "date": 1705936972,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6709186,
+        "date": 1705936992,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6713500,
+        "date": 1706097882,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 607980,
+            "member_id": 396771911,
+            "message": "на подписку ps+ чтобы играть с Владом, Мотей"
+        }
+    },
+    {
+        "id": 6714494,
+        "date": 1706165211,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 646602795
+        }
+    },
+    {
+        "id": 6714496,
+        "date": 1706165392,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_unpin_message",
+            "conversation_message_id": 607980,
+            "member_id": 396771911
+        }
+    },
+    {
+        "id": 6714499,
+        "date": 1706165607,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 646602795
+        }
+    },
+    {
+        "id": 6714500,
+        "date": 1706165607,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6714501,
+        "date": 1706165607,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6714502,
+        "date": 1706165607,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 509579665
+        }
+    },
+    {
+        "id": 6714503,
+        "date": 1706165607,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6714504,
+        "date": 1706165607,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6714505,
+        "date": 1706165607,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6714506,
+        "date": 1706165607,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6714507,
+        "date": 1706165608,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6714508,
+        "date": 1706165608,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6714509,
+        "date": 1706165608,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6714510,
+        "date": 1706165608,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6714511,
+        "date": 1706165608,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6714516,
+        "date": 1706165704,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6714517,
+        "date": 1706165704,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6714518,
+        "date": 1706165704,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6714519,
+        "date": 1706165704,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6714520,
+        "date": 1706165704,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 509579665
+        }
+    },
+    {
+        "id": 6714521,
+        "date": 1706165704,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6714522,
+        "date": 1706165705,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6714523,
+        "date": 1706165705,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6714524,
+        "date": 1706165705,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 646602795
+        }
+    },
+    {
+        "id": 6714525,
+        "date": 1706165705,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6714526,
+        "date": 1706165705,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6714527,
+        "date": 1706165705,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6714530,
+        "date": 1706165730,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6714531,
+        "date": 1706165764,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 618322767
+        }
+    },
+    {
+        "id": 6714533,
+        "date": 1706165781,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 618322767
+        }
+    },
+    {
+        "id": 6714542,
+        "date": 1706167662,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 646602795
+        }
+    },
+    {
+        "id": 6716796,
+        "date": 1706266486,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 608174,
+            "member_id": 396771911,
+            "message": "АААААХАХАХАХАХХАХААХАПХ"
+        }
+    },
+    {
+        "id": 6717327,
+        "date": 1706341514,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6717330,
+        "date": 1706341785,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6718735,
+        "date": 1706384464,
+        "from_id": 307642230,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 498352917
+        }
+    },
+    {
+        "id": 6718740,
+        "date": 1706384475,
+        "from_id": 307642230,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 498352917
+        }
+    },
+    {
+        "id": 6718743,
+        "date": 1706384521,
+        "from_id": 307642230,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 631901552
+        }
+    },
+    {
+        "id": 6719466,
+        "date": 1706401171,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 609016,
+            "member_id": 396771911,
+            "message": "Актуалка и список правителей, господа."
+        }
+    },
+    {
+        "id": 6720099,
+        "date": 1706469430,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 609124,
+            "member_id": 396771911,
+            "message": "@все \nЛетом в Пермь с большой возможностью"
+        }
+    },
+    {
+        "id": 6720119,
+        "date": 1706472154,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 609016,
+            "member_id": 396771911,
+            "message": "Актуалка и список правителей, господа."
+        }
+    },
+    {
+        "id": 6720150,
+        "date": 1706502431,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6720155,
+        "date": 1706504659,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6720157,
+        "date": 1706504660,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6720258,
+        "date": 1706507349,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6720362,
+        "date": 1706511359,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6720394,
+        "date": 1706511553,
+        "from_id": 631901552,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 631901552
+        }
+    },
+    {
+        "id": 6720416,
+        "date": 1706511668,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6721813,
+        "date": 1706546944,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6722064,
+        "date": 1706546950,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6722865,
+        "date": 1706594643,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 502421084
+        }
+    },
+    {
+        "id": 6722872,
+        "date": 1706594670,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_unpin_message",
+            "conversation_message_id": 609016,
+            "member_id": 396771911
+        }
+    },
+    {
+        "id": 6722904,
+        "date": 1706594822,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6722905,
+        "date": 1706594822,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 509579665
+        }
+    },
+    {
+        "id": 6722906,
+        "date": 1706594822,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6722907,
+        "date": 1706594822,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6722908,
+        "date": 1706594822,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6722909,
+        "date": 1706594822,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6722910,
+        "date": 1706594823,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6722911,
+        "date": 1706594823,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6722912,
+        "date": 1706594823,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6722913,
+        "date": 1706594823,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6722914,
+        "date": 1706594823,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6722915,
+        "date": 1706594823,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6722928,
+        "date": 1706594909,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6722929,
+        "date": 1706594909,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6722930,
+        "date": 1706594909,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 509579665
+        }
+    },
+    {
+        "id": 6722931,
+        "date": 1706594909,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6722932,
+        "date": 1706594910,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6722933,
+        "date": 1706594910,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6722934,
+        "date": 1706594910,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6722938,
+        "date": 1706594933,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6722959,
+        "date": 1706595013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6722960,
+        "date": 1706595013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6722985,
+        "date": 1706595079,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 609727,
+            "member_id": 396771911,
+            "message": "Дней без кика всей беседы: 0"
+        }
+    },
+    {
+        "id": 6722987,
+        "date": 1706595085,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 609728,
+            "member_id": 396771911,
+            "message": "Дней без кика всей беседы: 0"
+        }
+    },
+    {
+        "id": 6722992,
+        "date": 1706595133,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6723003,
+        "date": 1706595162,
+        "from_id": 499111193,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6723051,
+        "date": 1706595495,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 618322767
+        }
+    },
+    {
+        "id": 6723053,
+        "date": 1706595505,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 618322767
+        }
+    },
+    {
+        "id": 6723160,
+        "date": 1706596263,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6723224,
+        "date": 1706596980,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6723226,
+        "date": 1706596997,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6723232,
+        "date": 1706597023,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6723288,
+        "date": 1706597526,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 549711416
+        }
+    },
+    {
+        "id": 6723291,
+        "date": 1706597534,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6723295,
+        "date": 1706597585,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 549711416
+        }
+    },
+    {
+        "id": 6723296,
+        "date": 1706597585,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6723300,
+        "date": 1706597590,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 502421084
+        }
+    },
+    {
+        "id": 6723301,
+        "date": 1706597597,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 502421084
+        }
+    },
+    {
+        "id": 6723303,
+        "date": 1706597599,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6723314,
+        "date": 1706597653,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6723315,
+        "date": 1706597668,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6723317,
+        "date": 1706597989,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6723324,
+        "date": 1706598146,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6723329,
+        "date": 1706598182,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 655062790
+        }
+    },
+    {
+        "id": 6723341,
+        "date": 1706598387,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": -190195384
+        }
+    },
+    {
+        "id": 6723343,
+        "date": 1706598387,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6723344,
+        "date": 1706598387,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 509579665
+        }
+    },
+    {
+        "id": 6723345,
+        "date": 1706598387,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6723346,
+        "date": 1706598388,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6723347,
+        "date": 1706598388,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6723348,
+        "date": 1706598388,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6723349,
+        "date": 1706598388,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6723350,
+        "date": 1706598388,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6723351,
+        "date": 1706598388,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6723368,
+        "date": 1706598515,
+        "from_id": 552376142,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 502421084
+        }
+    },
+    {
+        "id": 6723370,
+        "date": 1706598527,
+        "from_id": 552376142,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6723398,
+        "date": 1706601013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6723399,
+        "date": 1706601013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 502421084
+        }
+    },
+    {
+        "id": 6723400,
+        "date": 1706601013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6723401,
+        "date": 1706601013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6723402,
+        "date": 1706601013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6723403,
+        "date": 1706601013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6723404,
+        "date": 1706601013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6723405,
+        "date": 1706601013,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6723406,
+        "date": 1706601014,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6723407,
+        "date": 1706601014,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6723412,
+        "date": 1706601329,
+        "from_id": 616625513,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616625513
+        }
+    },
+    {
+        "id": 6725002,
+        "date": 1706676566,
+        "from_id": 307642230,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 655062790
+        }
+    },
+    {
+        "id": 6725376,
+        "date": 1706719835,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 610433,
+            "member_id": 396771911,
+            "message": "Дней без кика всей беседы: 1"
+        }
+    },
+    {
+        "id": 6726871,
+        "date": 1706902154,
+        "from_id": 307642230,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 610575,
+            "member_id": 307642230,
+            "message": "Дней без кика всей беседы: 3"
+        }
+    },
+    {
+        "id": 6727069,
+        "date": 1706973338,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6727070,
+        "date": 1706973342,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6733145,
+        "date": 1707652449,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6733174,
+        "date": 1707656258,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6733175,
+        "date": 1707656258,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6733176,
+        "date": 1707656258,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6733177,
+        "date": 1707656259,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6733178,
+        "date": 1707656259,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6733179,
+        "date": 1707656259,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6733180,
+        "date": 1707656259,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6733181,
+        "date": 1707656259,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6733191,
+        "date": 1707656362,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6733192,
+        "date": 1707656363,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6733193,
+        "date": 1707656363,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6733194,
+        "date": 1707656363,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6733195,
+        "date": 1707656363,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6733196,
+        "date": 1707656363,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6733197,
+        "date": 1707656406,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6733198,
+        "date": 1707656429,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6733199,
+        "date": 1707656451,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6733403,
+        "date": 1707805833,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6733458,
+        "date": 1707810326,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6733499,
+        "date": 1707829155,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 611398,
+            "member_id": 396771911,
+            "message": "Дней без кика всей беседы: 11"
+        }
+    },
+    {
+        "id": 6733827,
+        "date": 1708003458,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6733828,
+        "date": 1708003459,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6733829,
+        "date": 1708003459,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6733830,
+        "date": 1708003459,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 521674380
+        }
+    },
+    {
+        "id": 6733831,
+        "date": 1708003459,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6733832,
+        "date": 1708003459,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6733833,
+        "date": 1708003459,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6733834,
+        "date": 1708003459,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6733835,
+        "date": 1708003459,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6733841,
+        "date": 1708003765,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6733842,
+        "date": 1708003765,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6733843,
+        "date": 1708003765,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 590408126
+        }
+    },
+    {
+        "id": 6733844,
+        "date": 1708003765,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 771941180
+        }
+    },
+    {
+        "id": 6733845,
+        "date": 1708003765,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6733846,
+        "date": 1708003765,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6733847,
+        "date": 1708003766,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 444733069
+        }
+    },
+    {
+        "id": 6733848,
+        "date": 1708003766,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6739555,
+        "date": 1708888232,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 611760,
+            "member_id": 396771911,
+            "message": "@все \nМониторинг мнений Ежиной беседы"
+        }
+    },
+    {
+        "id": 6742627,
+        "date": 1709450111,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_title_update",
+            "text": "r/36reddit_hedgehogs || ☧ 🇮🇱️ Ezhinia 🇮🇱️ ☧ || Ежиная Беседа || Ежиное РП 2020-2025"
+        }
+    },
+    {
+        "id": 6742960,
+        "date": 1709478924,
+        "from_id": 265415035,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 265415035
+        }
+    },
+    {
+        "id": 6742966,
+        "date": 1709479712,
+        "from_id": 265415035,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 265415035
+        }
+    },
+    {
+        "id": 6744274,
+        "date": 1709782905,
+        "from_id": 265415035,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 265415035
+        }
+    },
+    {
+        "id": 6744276,
+        "date": 1709782955,
+        "from_id": 265415035,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 265415035
+        }
+    },
+    {
+        "id": 6745550,
+        "date": 1709824751,
+        "from_id": 499111193,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6745878,
+        "date": 1709990241,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 611769,
+            "member_id": 396771911,
+            "message": "ERP — организационная стратегия интеграции"
+        }
+    },
+    {
+        "id": 6746169,
+        "date": 1709995713,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6746198,
+        "date": 1709995827,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6746199,
+        "date": 1709995840,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6746202,
+        "date": 1709995872,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6746465,
+        "date": 1710016529,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6746468,
+        "date": 1710016596,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6746486,
+        "date": 1710020845,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6746488,
+        "date": 1710020883,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6746515,
+        "date": 1710021137,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6746518,
+        "date": 1710021140,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6746522,
+        "date": 1710021151,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 769201685
+        }
+    },
+    {
+        "id": 6746524,
+        "date": 1710021151,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 491473937
+        }
+    },
+    {
+        "id": 6746549,
+        "date": 1710050488,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6749900,
+        "date": 1710274125,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6756024,
+        "date": 1710510618,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 465908082
+        }
+    },
+    {
+        "id": 6756031,
+        "date": 1710510645,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 465908082
+        }
+    },
+    {
+        "id": 6763311,
+        "date": 1711392061,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": -196009619
+        }
+    },
+    {
+        "id": 6763320,
+        "date": 1711392112,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 502421084
+        }
+    },
+    {
+        "id": 6763335,
+        "date": 1711392220,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6763337,
+        "date": 1711392245,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6763339,
+        "date": 1711392279,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6763352,
+        "date": 1711392436,
+        "from_id": 45918174,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6763603,
+        "date": 1711392657,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6763608,
+        "date": 1711392792,
+        "from_id": 45918174,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6763848,
+        "date": 1711392865,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": -202912556
+        }
+    },
+    {
+        "id": 6763851,
+        "date": 1711392904,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": -211998197
+        }
+    },
+    {
+        "id": 6763855,
+        "date": 1711392965,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": -190195384
+        }
+    },
+    {
+        "id": 6763859,
+        "date": 1711392996,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6768846,
+        "date": 1711984455,
+        "from_id": 552376142,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6774634,
+        "date": 1712848239,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": -194070336
+        }
+    },
+    {
+        "id": 6774689,
+        "date": 1712851813,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": -194070336
+        }
+    },
+    {
+        "id": 6777098,
+        "date": 1713284754,
+        "from_id": 552376142,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6777101,
+        "date": 1713284756,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6777103,
+        "date": 1713284808,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6777126,
+        "date": 1713285632,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6777127,
+        "date": 1713285641,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6777681,
+        "date": 1713360268,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6777694,
+        "date": 1713360318,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6777695,
+        "date": 1713360474,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6777719,
+        "date": 1713360682,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6777722,
+        "date": 1713360689,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6777775,
+        "date": 1713360794,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 460155979
+        }
+    },
+    {
+        "id": 6777817,
+        "date": 1713361101,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 499111193
+        }
+    },
+    {
+        "id": 6777827,
+        "date": 1713361166,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6777829,
+        "date": 1713361190,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 616130610
+        }
+    },
+    {
+        "id": 6777887,
+        "date": 1713362406,
+        "from_id": 859212406,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user_by_link"
+        }
+    },
+    {
+        "id": 6777898,
+        "date": 1713364258,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6777907,
+        "date": 1713366667,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616130610
+        }
+    },
+    {
+        "id": 6777909,
+        "date": 1713366808,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 616130610
+        }
+    },
+    {
+        "id": 6777923,
+        "date": 1713367395,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 859212406
+        }
+    },
+    {
+        "id": 6777933,
+        "date": 1713367941,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616130610
+        }
+    },
+    {
+        "id": 6780182,
+        "date": 1713709042,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6780184,
+        "date": 1713709066,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6780189,
+        "date": 1713709194,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6780191,
+        "date": 1713709674,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6780318,
+        "date": 1713726666,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 615843,
+            "member_id": 396771911,
+            "message": "*all \nАктуалка, господа"
+        }
+    },
+    {
+        "id": 6780485,
+        "date": 1713728506,
+        "from_id": 552376142,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6780491,
+        "date": 1713729524,
+        "from_id": 552376142,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 552376142
+        }
+    },
+    {
+        "id": 6781693,
+        "date": 1713869341,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 616857,
+            "member_id": 396771911,
+            "message": "@все ребят ща по бырому актуалочку накатаю,"
+        }
+    },
+    {
+        "id": 6783756,
+        "date": 1714053420,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6783759,
+        "date": 1714053441,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6784020,
+        "date": 1714064181,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": -196009619
+        }
+    },
+    {
+        "id": 6784086,
+        "date": 1714066098,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6784121,
+        "date": 1714067554,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6784128,
+        "date": 1714067604,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6784264,
+        "date": 1714070322,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6784391,
+        "date": 1714071006,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6784612,
+        "date": 1714116470,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6784614,
+        "date": 1714116602,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 554680398
+        }
+    },
+    {
+        "id": 6785035,
+        "date": 1714219447,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6785059,
+        "date": 1714223452,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6785079,
+        "date": 1714226963,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 616130610
+        }
+    },
+    {
+        "id": 6785166,
+        "date": 1714227178,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6785174,
+        "date": 1714227190,
+        "from_id": 616130610,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616130610
+        }
+    },
+    {
+        "id": 6785181,
+        "date": 1714227196,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 616130610
+        }
+    },
+    {
+        "id": 6785517,
+        "date": 1714240340,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6785623,
+        "date": 1714241593,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6786756,
+        "date": 1714501758,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 619942,
+            "member_id": 396771911,
+            "message": "НАШ САЙТ ДОСТУПЕН ПО НОВОЙ ССЫЛКЕ https://hedgehog-rp.ru"
+        }
+    },
+    {
+        "id": 6790635,
+        "date": 1715324671,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6790643,
+        "date": 1715324934,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6790645,
+        "date": 1715324953,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6790650,
+        "date": 1715325086,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6790859,
+        "date": 1715343445,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6790967,
+        "date": 1715410300,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6791714,
+        "date": 1715610834,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6794991,
+        "date": 1716297663,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 620798,
+            "member_id": 396771911,
+            "message": "Новое обновление на сайте среднего размера😍"
+        }
+    },
+    {
+        "id": 6795116,
+        "date": 1716322901,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 620815,
+            "member_id": 396771911,
+            "message": "@все важный опрос для нашего сайта\n\n\""
+        }
+    },
+    {
+        "id": 6795117,
+        "date": 1716323526,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_unpin_message",
+            "conversation_message_id": 620815,
+            "member_id": 396771911
+        }
+    },
+    {
+        "id": 6796805,
+        "date": 1716388589,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 620821,
+            "member_id": 396771911,
+            "message": "Новое обновление на сайте😎\n\nСписок"
+        }
+    },
+    {
+        "id": 6803707,
+        "date": 1717092901,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6805276,
+        "date": 1717263212,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6805508,
+        "date": 1717319637,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_title_update",
+            "text": "r/37reddit_hedgehogs || ☧ 🇮🇱️ Ezhinia 🇮🇱️ ☧ || Ежиная Беседа || Ежиное РП 2020-2025"
+        }
+    },
+    {
+        "id": 6806153,
+        "date": 1717436695,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_unpin_message",
+            "conversation_message_id": 620821,
+            "member_id": 396771911
+        }
+    },
+    {
+        "id": 6806154,
+        "date": 1717436885,
+        "from_id": 291195777,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 847706247
+        }
+    },
+    {
+        "id": 6806199,
+        "date": 1717437383,
+        "from_id": 817934388,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 817934388
+        }
+    },
+    {
+        "id": 6806245,
+        "date": 1717441172,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 847706247
+        }
+    },
+    {
+        "id": 6806627,
+        "date": 1717445921,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 622259,
+            "member_id": 396771911,
+            "message": "Ежиное РП завершено"
+        }
+    },
+    {
+        "id": 6806755,
+        "date": 1717447345,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6807278,
+        "date": 1717489107,
+        "from_id": 291195777,
+        "text": "",
+        "action": {
+            "type": "conversation_style_update",
+            "style": "gamer"
+        }
+    },
+    {
+        "id": 6807280,
+        "date": 1717489252,
+        "from_id": 291195777,
+        "text": "",
+        "action": {
+            "type": "conversation_style_update",
+            "style": "twilight"
+        }
+    },
+    {
+        "id": 6807299,
+        "date": 1717490823,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "conversation_style_update",
+            "style": "disco"
+        }
+    },
+    {
+        "id": 6807300,
+        "date": 1717490838,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "conversation_style_update",
+            "style": "retrowave"
+        }
+    },
+    {
+        "id": 6809240,
+        "date": 1717610358,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 622494,
+            "member_id": 396771911,
+            "message": "Утожное РП открыто!"
+        }
+    },
+    {
+        "id": 6809244,
+        "date": 1717610426,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_title_update",
+            "text": "r/37reddit_duckgehogs || ☧ 🇮🇱️ Utozhia 🇮🇱️ ☧ || Ежиная Беседа || Утожное РП 2020-2025"
+        }
+    },
+    {
+        "id": 6810488,
+        "date": 1717756080,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 622700,
+            "member_id": 396771911,
+            "message": "@все"
+        }
+    },
+    {
+        "id": 6810786,
+        "date": 1717836699,
+        "from_id": 535028784,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 864070460
+        }
+    },
+    {
+        "id": 6812905,
+        "date": 1717962744,
+        "from_id": 291195777,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": -202912556
+        }
+    },
+    {
+        "id": 6816776,
+        "date": 1718283179,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 623360,
+            "member_id": 396771911,
+            "message": "@все"
+        }
+    },
+    {
+        "id": 6817074,
+        "date": 1718307503,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6817869,
+        "date": 1718368779,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 623512,
+            "member_id": 396771911,
+            "message": "3614 год от Сотворения Мира.\nЭпоха: Бронзовый"
+        }
+    },
+    {
+        "id": 6817872,
+        "date": 1718368788,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 623966,
+            "member_id": 396771911,
+            "message": "Актуалка, господа\n\n3614 год от Сотворения"
+        }
+    },
+    {
+        "id": 6817874,
+        "date": 1718368997,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_title_update",
+            "text": "r/37reddit_porcupines || ☧ 🇮🇱️ Porcupine Tribles 🇮🇱️ ☧ || Ежиная Беседа || Дикобразное РП 2020-2025"
+        }
+    },
+    {
+        "id": 6819296,
+        "date": 1718456096,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 624280,
+            "member_id": 396771911,
+            "message": "@все  \n\nОчень подробную карту мира"
+        }
+    },
+    {
+        "id": 6822571,
+        "date": 1718816774,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 625238,
+            "member_id": 396771911,
+            "message": "3619 год от Сотворения Мира\nЭпоха: Ранняя"
+        }
+    },
+    {
+        "id": 6827087,
+        "date": 1719160281,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_title_update",
+            "text": "r/37reddiτ_ρorcυριnes || ☧ 🇮🇱️ Porcupine Tribles 🇮🇱️ ☧ || Ежиная Беседа || Дикобразное РП 2020-2025"
+        }
+    },
+    {
+        "id": 6832827,
+        "date": 1719697038,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 601639,
+            "member_id": 465908082
+        }
+    },
+    {
+        "id": 6832861,
+        "date": 1719723169,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 509579665
+        }
+    },
+    {
+        "id": 6837457,
+        "date": 1720960539,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6838437,
+        "date": 1721335795,
+        "from_id": 655062790,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 655062790
+        }
+    },
+    {
+        "id": 6844638,
+        "date": 1722559508,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 290827,
+            "member_id": 465908082
+        }
+    },
+    {
+        "id": 6845440,
+        "date": 1722713497,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 291838,
+            "member_id": 465908082,
+            "message": "В связи с тем, что договор между Хиенспатт,"
+        }
+    },
+    {
+        "id": 6845942,
+        "date": 1722782205,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627094,
+            "member_id": 465908082,
+            "message": "@все, дождались"
+        }
+    },
+    {
+        "id": 6846048,
+        "date": 1722808224,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627154,
+            "member_id": 396771911,
+            "message": "НОВАЯ АЛЕРНАТИВА ЮТУБУ - https://tv.hedgehog-rp.ru/"
+        }
+    },
+    {
+        "id": 6846051,
+        "date": 1722808268,
+        "from_id": 291195777,
+        "text": "",
+        "action": {
+            "type": "chat_unpin_message",
+            "conversation_message_id": 627154,
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6846054,
+        "date": 1722808277,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627157,
+            "member_id": 396771911,
+            "message": "@all НОВАЯ АЛЕРНАТИВА ЮТУБУ - https://tv.hedgehog-rp.ru/"
+        }
+    },
+    {
+        "id": 6846232,
+        "date": 1722852071,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627163,
+            "member_id": 465908082,
+            "message": "@all"
+        }
+    },
+    {
+        "id": 6847043,
+        "date": 1722945728,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627266,
+            "member_id": 396771911,
+            "message": "@онлайн"
+        }
+    },
+    {
+        "id": 6847367,
+        "date": 1722964571,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6847546,
+        "date": 1723032069,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627323,
+            "member_id": 396771911,
+            "message": "@все"
+        }
+    },
+    {
+        "id": 6847550,
+        "date": 1723032159,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_unpin_message",
+            "conversation_message_id": 627323,
+            "member_id": 396771911
+        }
+    },
+    {
+        "id": 6849711,
+        "date": 1723205114,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627427,
+            "member_id": 396771911,
+            "message": "@все"
+        }
+    },
+    {
+        "id": 6849751,
+        "date": 1723210446,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6849754,
+        "date": 1723210454,
+        "from_id": 610350669,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 610350669
+        }
+    },
+    {
+        "id": 6849896,
+        "date": 1723233858,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627465,
+            "member_id": 396771911,
+            "message": "@все как вы думаете, кто Fenet Greg?"
+        }
+    },
+    {
+        "id": 6851287,
+        "date": 1723390596,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_title_update",
+            "text": "молодость в стиле панк-ёж || Ежиная беседа || Ежиное РП 2020-2025"
+        }
+    },
+    {
+        "id": 6851293,
+        "date": 1723391512,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 627553,
+            "member_id": 396771911,
+            "message": "*all убедительная просьба и предложение"
+        }
+    },
+    {
+        "id": 6851414,
+        "date": 1723395393,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6851665,
+        "date": 1723395424,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6852756,
+        "date": 1723495399,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6852759,
+        "date": 1723495412,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6852775,
+        "date": 1723495469,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6852778,
+        "date": 1723495493,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 45918174
+        }
+    },
+    {
+        "id": 6852813,
+        "date": 1723496254,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 720571108
+        }
+    },
+    {
+        "id": 6852820,
+        "date": 1723496280,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 720571108
+        }
+    },
+    {
+        "id": 6854628,
+        "date": 1723747189,
+        "from_id": 578579407,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 578579407
+        }
+    },
+    {
+        "id": 6854873,
+        "date": 1723789029,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6854963,
+        "date": 1723799340,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6868416,
+        "date": 1725543968,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 465908082
+        }
+    },
+    {
+        "id": 6870565,
+        "date": 1725886226,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 465908082
+        }
+    },
+    {
+        "id": 6876866,
+        "date": 1727547842,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 630383,
+            "member_id": 396771911,
+            "message": "Актуалка, господа."
+        }
+    },
+    {
+        "id": 6883402,
+        "date": 1727969851,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 630686,
+            "member_id": 396771911,
+            "message": "@все"
+        }
+    },
+    {
+        "id": 6884511,
+        "date": 1728212339,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 630915,
+            "member_id": 396771911,
+            "message": "@все"
+        }
+    },
+    {
+        "id": 6884893,
+        "date": 1728276882,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6885019,
+        "date": 1728288955,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6885028,
+        "date": 1728289603,
+        "from_id": 636378157,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 636378157
+        }
+    },
+    {
+        "id": 6888301,
+        "date": 1728480710,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6888552,
+        "date": 1728480717,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 291195777
+        }
+    },
+    {
+        "id": 6905212,
+        "date": 1729339824,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6909325,
+        "date": 1729781588,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_photo_update"
+        }
+    },
+    {
+        "id": 6912142,
+        "date": 1730113242,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 631799,
+            "member_id": 396771911,
+            "message": "@all \n\nIntel core i5-12600H\nGeForce"
+        }
+    },
+    {
+        "id": 6914852,
+        "date": 1730316245,
+        "from_id": 498720708,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 498720708
+        }
+    },
+    {
+        "id": 6924376,
+        "date": 1731059288,
+        "from_id": -174105461,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 549711416
+        }
+    },
+    {
+        "id": 6924378,
+        "date": 1731059303,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 549711416
+        }
+    },
+    {
+        "id": 6924385,
+        "date": 1731059387,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 828091934
+        }
+    },
+    {
+        "id": 6937290,
+        "date": 1732211447,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 632508,
+            "member_id": 396771911,
+            "message": "актуалка"
+        }
+    },
+    {
+        "id": 6944101,
+        "date": 1732725433,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 632790,
+            "member_id": 396771911,
+            "message": "Актуалка"
+        }
+    },
+    {
+        "id": 6946026,
+        "date": 1732854364,
+        "from_id": 315639278,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 315639278
+        }
+    },
+    {
+        "id": 6986506,
+        "date": 1734668843,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 633303,
+            "member_id": 396771911,
+            "message": "@все \n\nпроголосуйте за пермь на госуслугах"
+        }
+    },
+    {
+        "id": 6996005,
+        "date": 1735211021,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 309133,
+            "member_id": 465908082,
+            "message": "Короче, я не обязан читать ваши помои. Бывайте"
+        }
+    },
+    {
+        "id": 6999776,
+        "date": 1735542357,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 342759,
+            "member_id": 465908082,
+            "message": "-Я рад сказать всем жителям Лефанляндии,"
+        }
+    },
+    {
+        "id": 6999875,
+        "date": 1735552819,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 344628,
+            "member_id": 396771911
+        }
+    },
+    {
+        "id": 6999959,
+        "date": 1735562198,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 633786,
+            "member_id": 396771911,
+            "message": "@все"
+        }
+    },
+    {
+        "id": 6999962,
+        "date": 1735563738,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 633789,
+            "member_id": 396771911,
+            "message": "@все"
+        }
+    },
+    {
+        "id": 7000298,
+        "date": 1735621290,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_kick_user",
+            "member_id": 465908082
+        }
+    },
+    {
+        "id": 7000302,
+        "date": 1735621356,
+        "from_id": 465908082,
+        "text": "",
+        "action": {
+            "type": "chat_invite_user",
+            "member_id": 465908082
+        }
+    },
+    {
+        "id": 7000418,
+        "date": 1735627162,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 345362,
+            "member_id": 396771911,
+            "message": "Создай Отсоси Криду: Ежиссея"
+        }
+    },
+    {
+        "id": 7000423,
+        "date": 1735628122,
+        "from_id": 396771911,
+        "text": "",
+        "action": {
+            "type": "chat_pin_message",
+            "conversation_message_id": 346302,
+            "member_id": 396771911,
+            "message": "Как же я хочу просто геноцид ежей"
+        }
+    }
+]
