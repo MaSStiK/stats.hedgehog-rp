@@ -375,9 +375,10 @@
         renderOverallPie(years, overview);
         renderUserTotals(overview, mapInfo);
         const sel = document.getElementById('yearSelector');
-        years.forEach(y=>sel.append(new Option(y,y)));
-        sel.addEventListener('change',()=>renderYearlyStats(sel.value,data,mapInfo));
-        renderYearlyStats(years[0], data, mapInfo);
+        years.forEach(y => sel.append(new Option(y, y)));
+        sel.selectedIndex = years.length - 1;
+        renderYearlyStats(sel.value, data, mapInfo);
+        sel.addEventListener('change', () => renderYearlyStats(sel.value, data, mapInfo));
       } catch(e) {
         console.error(e);
         document.querySelector('.container').innerHTML = '<p style="color:red;">Ошибка загрузки статистики, см. консоль.</p>';
