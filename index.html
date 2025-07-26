@@ -205,8 +205,8 @@
         <div id="overallPie" class="chart-container"><canvas></canvas></div>
       </div>
       <div id="userTable">
-        <h3>Сообщения по пользователям (всего):</h3>
-        <span id="userCount">Всего участников: 0</span>
+        <h3>Сообщений от участников за всё время</h3>
+        <span id="userCount">Общее число участников за всё время: 0</span>
         <div class="scroll-table">
           <div class="table-head">
             <table>
@@ -287,7 +287,7 @@
         .map(([id,d]) => ({ id, total: Object.values(d).reduce((s,v)=>s+v,0) }))
         .sort((a,b)=>b.total-a.total);
       //Считаем и выводим общее число
-      document.getElementById('userCount').innerText = `Всего участников: ${users.length}`;
+      document.getElementById('userCount').innerText = `Общее число участников за всё время: ${users.length}`;
       //Заполняем всю таблицу
       users.forEach((u,i) => {
         const info = mapInfo[u.id]||{};
