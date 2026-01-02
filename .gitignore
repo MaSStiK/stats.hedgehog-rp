@@ -1,0 +1,8 @@
+.env
+/backup
+/scripts/messages
+/scripts/actions
+fetch_entities.py
+fetch_messages.py
+stats_report.py
+vk_state.json
