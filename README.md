@@ -32,3 +32,14 @@
 
 3. **`stats_report.py`**  
    Обрабатывает собранные данные и формирует итоговый файл `summary_stats.json`.
+
+## 📸 Скриншоты сайта
+<table>
+    <tr>
+        <td align="center">
+            <img width="1500" alt="screenshot" src="https://github.com/user-attachments/assets/8e044313-1eaa-4076-bbee-e6d3f35bca56" />
+            <br>
+            <p>Главная страница</p>
+        </td>
+    </tr>
+</table>
