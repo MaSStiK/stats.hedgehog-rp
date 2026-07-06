@@ -5,7 +5,7 @@
 </p>
 
 # Hedgehog RP Stats
-> **Main Project:** [hedgehog-rp](https://github.com/MaSStiK/hedgehog-rp)
+> **Main project:** [hedgehog-rp](https://github.com/MaSStiK/hedgehog-rp)
 
 **Chat Statistics** is an analytics platform designed to visualize VK community message statistics for the Hedgehog RP project. The service combines data collection, processing, and presentation tools, making it possible to analyze participant activity and track the community's evolution over time.
 
@@ -21,7 +21,7 @@ Statistics are presented through rankings, charts, graphs, and summary metrics, 
 ## 🔗 Related Projects
 - 🦔 [Hedgehog RP](https://github.com/MaSStiK/hedgehog-rp)
 - 🌍 [Interactive Map](https://github.com/MaSStiK/map.hedgehog-rp)
-- 📺 [Hedgehog TV](https://github.com/MaSStiK/tv.hedgehog-rp)
+- 📺 [Hedgehog Television](https://github.com/MaSStiK/tv.hedgehog-rp)
 
 ## 🛠️ Website Technologies
 - **HTML, CSS, JavaScript** - Core web technologies
