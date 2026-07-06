@@ -41,6 +41,7 @@ Data collection scripts are not included in the repository for privacy reasons.
 3. **`stats_report.py`** - Processes collected data and generates `summary_stats.json`.
 
 ## 📸 Screenshots
+
 <table>
     <tr>
         <td align="center">

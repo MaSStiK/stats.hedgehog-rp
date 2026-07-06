@@ -41,6 +41,7 @@
 3. **`stats_report.py`** - обрабатывает собранные данные и формирует итоговый файл `summary_stats.json`.
 
 ## 📸 Скриншоты сайта
+
 <table>
     <tr>
         <td align="center">

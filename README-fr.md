@@ -41,6 +41,7 @@ Les scripts de collecte ne sont pas publiés dans le dépôt pour des raisons de
 3. **`stats_report.py`** - Traite les données collectées et génère `summary_stats.json`.
 
 ## 📸 Captures d’écran
+
 <table>
     <tr>
         <td align="center">
