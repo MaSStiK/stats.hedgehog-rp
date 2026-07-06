@@ -1,45 +1,52 @@
+<p align="right">
+  <a href="./README.md">🇺🇸 English</a> |
+  <a href="./README-ru.md">🇷🇺 Русский</a> |
+  <a href="./README-fr.md">🇫🇷 Français</a>
+</p>
+
 # Hedgehog RP Stats
-> **Основной проект:** [hedgehog-rp](https://github.com/MaSStiK/hedgehog-rp)
+> **Main Project:** [hedgehog-rp](https://github.com/MaSStiK/hedgehog-rp)
 
-**Статистика беседы** - аналитическая платформа для визуализации статистики сообщений беседы VK проекта «Hedgehog RP».
+**Chat Statistics** is an analytics platform designed to visualize VK community message statistics for the Hedgehog RP project. The service combines data collection, processing, and presentation tools, making it possible to analyze participant activity and track the community's evolution over time.
 
-Проект предназначен для сбора, агрегации и отображения активности участников беседы. На сайте данные представлены в виде топов, диаграмм, графиков и сводных показателей, отражающих развитие и активность сообщества за разные периоды времени.
+Statistics are presented through rankings, charts, graphs, and summary metrics, providing a clear overview of user engagement, communication trends, and community growth.
 
-## 🔗 Связанные проекты
+## ✨ Features
+- View participant message statistics
+- Rankings of the most active users
+- Data visualization with charts and graphs
+- Activity analysis across different time periods
+- Community-wide summary metrics
+
+## 🔗 Related Projects
 - 🦔 [Hedgehog RP](https://github.com/MaSStiK/hedgehog-rp)
-- 🌍 [Онлайн карта](https://github.com/MaSStiK/map.hedgehog-rp)
-- 📺 [Ежиное телевидение](https://github.com/MaSStiK/tv.hedgehog-rp)
+- 🌍 [Interactive Map](https://github.com/MaSStiK/map.hedgehog-rp)
+- 📺 [Hedgehog TV](https://github.com/MaSStiK/tv.hedgehog-rp)
 
-## 🛠️ Технологии сайта
-- **HTML, CSS, JavaScript** — базовый стек проекта
-- **Chart.js** — визуализация статистики и графиков
+## 🛠️ Website Technologies
+- **HTML, CSS, JavaScript** - Core web technologies
+- **Chart.js** - Charts and data visualization
 
-## 🐍 Инструменты обработки данных
-- **Python** — обработка и агрегация данных
-- **vk_api** — взаимодействие с API VK
-- **pandas** — анализ и обработка данных
+## 🐍 Data Processing Tools
+- **Python** - Data processing and aggregation
+- **vk_api** - Integration with the VK API
+- **pandas** - Data analysis and transformation
 
-## 📦 Сбор данных
-Скрипты, отвечающие за сбор данных из VK, не опубликованы в репозитории по соображениям конфиденциальности. Ниже приведено их описание для понимания архитектуры проекта.
+## 📦 Data Collection
+Data collection scripts are not included in the repository for privacy reasons.
 
-### ⚙️ Описание скриптов
-1. **`fetch_messages.py`**  
-   Выгружает сообщения и действия из беседы VK.  
-   Данные сохраняются по годам в папки `messages` и `actions`.
+### ⚙️ Script Overview
+1. **`fetch_messages.py`** - Exports VK chat messages and actions, storing data by year.
+2. **`fetch_entities.py`** - Collects participant information and saves it to `vk_entities.json`.
+3. **`stats_report.py`** - Processes collected data and generates `summary_stats.json`.
 
-2. **`fetch_entities.py`**  
-   Выгружает информацию об участниках беседы и сохраняет её в файл `vk_entities.json`.
-
-3. **`stats_report.py`**  
-   Обрабатывает собранные данные и формирует итоговый файл `summary_stats.json`.
-
-## 📸 Скриншоты сайта
+## 📸 Screenshots
 <table>
     <tr>
         <td align="center">
             <img width="1500" alt="screenshot" src="https://github.com/user-attachments/assets/8e044313-1eaa-4076-bbee-e6d3f35bca56" />
             <br>
-            <p>Главная страница</p>
+            <p>Community Statistics Dashboard</p>
         </td>
     </tr>
 </table>
